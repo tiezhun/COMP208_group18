@@ -8,7 +8,8 @@ CORS(app)
 
 def openai_generation(position, resumes):
     client = OpenAI(
-        api_key="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"
+        # Please copy the api key from instruction and paste here
+        api_key= ""
     )
     resumes_list = resumes.split("<resume>")
     num_of_resumes = len(resumes_list)
