@@ -6,7 +6,6 @@ app = Flask(__name__)
 CORS()
 
 
-
 def openai_generation(question,resume):
     client = OpenAI(
         # Please copy the api key from instruction and paste here
